@@ -42,8 +42,7 @@ predicting_power_outages/
 │   ├── complete_data.csv           # Final combined dataset
 │   ├── *_outage_combined_2014_2023.csv  # Event-specific datasets (5 files)
 │   └── complete_data.csv.zip       # Compressed dataset
-│
-└── presentation.pdf                # Project presentation
+
 ```
 
 ## 📊 Data Sources
@@ -269,10 +268,6 @@ The models use Recursive Feature Elimination to select the top 15 most important
 - **Geographic Coverage**: United States (all states)
 - **API Requirements**: Open-Meteo API key required for weather variable extraction
 - **Memory Considerations**: Large datasets processed in chunks for efficiency
-
-## 🤝 Contributing
-
-This is a research project. For questions or improvements, please refer to the presentation document for detailed methodology and results.
 
 ## 📄 License
 
